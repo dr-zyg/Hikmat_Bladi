@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  --opacity: 0.93;
+  background-image: linear-gradient(rgba(255, 255, 255, var(--opacity)), 
+                    rgba(255, 255, 255, var(--opacity))), 
+                    url('img/istockphoto-182416152-612x612.jpg');
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+}
+
+header {
+  background-color: #00695c;
+  color: white;
+  padding: 1rem 0;
+}
+
+header h1 {
+  margin: 0;
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/ZellijFes.jpg/1024px-ZellijFes.jpg') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.hero h2 {
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+  color: #fff;
+  background-color: rgba(0, 105, 92, 0.6);
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+}
+
+.hero input {
+  padding: 0.7rem 1rem;
+  width: 80%;
+  max-width: 400px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  font-size: 1rem;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.hero input:focus {
+  border-color: #004d40;
+  background-color: #ffffff;
+  color: #333;
+}
+
+
+.proverb-of-day {
+  background-color: #fff3e0;
+  padding: 2rem 0;
+}
+
+.proverb-of-day blockquote {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.proverb-list {
+  padding: 2rem 0;
+}
+
+.proverb-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.proverb-list li {
+  background-color: #f0f4c3;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+footer {
+  background-color: #004d40;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
+/* Style pour les résultats de recherche */
+#search-results {
+  list-style: none;
+  padding: 0;
+  background-color: #fff;  /* Make sure the background is white */
+  border-radius: 5px;
+  margin-top: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow to the results */
+}
+
+#search-results li {
+  padding: 0.5rem;
+  border-bottom: 1px solid #ddd;
+  color: #333;  /* Ensure the text color is dark enough to be visible */
+  background-color: #f9f9f9; /* Make background slightly different to highlight the items */
+}
+
+#search-results li:hover {
+  background-color: #f0f0f0;  /* Lighten the background on hover */
+  cursor: pointer;
+}
+
+/* Highlighting a search result when it is clicked (optional) */
+#search-results li.selected {
+  background-color: #3498db; /* Change background color when clicked */
+  color: white;
+}
+
+.team {
+  background-color: #fdf6e3;
+  padding: 2rem 0;
+}
+
+.team h3 {
+  text-align: center;
+  color: #00695c;
+  margin-bottom: 1rem;
+}
+
+.team-list {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.team-list li {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
